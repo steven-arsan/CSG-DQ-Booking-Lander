@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Your Strategy Call — ClearSight Growth</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .logo span { color: #7c6fd4; }
+
+  html, body {
+    background: #f9f9f9;
+    color: #1a1a2e;
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 32px 72px;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: clamp(28px, 4.5vw, 54px);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+  }
+
+  h1 u { text-decoration-thickness: 3px; text-underline-offset: 4px; }
+
+  .calendly-wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 40px 0;
+  }
+
+  .zoom-section {
+    text-align: left;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .zoom-label {
+    font-size: clamp(13px, 1.5vw, 15px);
+    font-weight: 600;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+  }
+
+  .bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: clamp(15px, 2vw, 17px);
+    line-height: 1.55;
+    color: #1a1a2e;
+  }
+
+  .check {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 50%;
+    background: #6c63d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  .check svg {
+    width: 11px;
+    height: 11px;
+    stroke: white;
+    fill: none;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .guarantee {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f7f6ff;
+    border: 1px solid #e2dff5;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-top: 28px;
+  }
+
+  .guarantee p { font-size: 15px; line-height: 1.5; color: #1a1a2e; }
+  .guarantee strong { font-weight: 700; }
+
+  .footer-note {
+    text-align: center;
+    font-size: 13px;
+    color: #9b9b9b;
+    margin-top: 32px;
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 24px 16px 48px; }
+    h1 { font-size: clamp(22px, 6vw, 30px); }
+    .calendly-wrap { border-radius: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="logo">ClearSight <span>Growth</span></div>
+
+  <h1><u>Final Step</u>: Select A Time<br>For Your Free 30-Minute Strategy Call</h1>
+
+  <div class="calendly-wrap">
+    <div id="calendly-embed" class="calendly-inline-widget" style="min-width:0;width:100%;height:700px;"></div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="zoom-section">
+    <p class="zoom-label">On this Zoom call, we will:</p>
+
+    <ul class="bullets">
+      <li>
+        <span class="check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>
+        Audit your marketing pipeline and find the biggest leaks.
+      </li>
+      <li>
+        <span class="check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>
+        See what this system could add to your revenue over the next 6–12 months.
+      </li>
+      <li>
+        <span class="check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>
+        See if you're a fit for the system and our guarantee.
+      </li>
+      <li>
+        <span class="check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>
+        If yes, we'll invite you in. If not, you'll leave with a clearer plan than you have now.
+      </li>
+    </ul>
+
+    <div class="guarantee">
+      <span style="font-size:18px;">✅</span>
+      <p><strong>20 booked appointments in 30 days</strong> — or you don't pay.</p>
+    </div>
+  </div>
+
+  <p class="footer-note">No obligation. Cancel or reschedule anytime.</p>
+
+</div>
+<script>
+  var tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  var yyyy = tomorrow.getFullYear();
+  var mm = String(tomorrow.getMonth() + 1).padStart(2, '0');
+  var dd = String(tomorrow.getDate()).padStart(2, '0');
+  var tomorrowStr = yyyy + '-' + mm + '-' + dd;
+
+  var baseUrl = 'https://calendly.com/steven-clearsightgrowth/discovery-call?hide_gdpr_banner=1&primary_color=6c63d5';
+  var isDesktop = window.innerWidth >= 768;
+  var url = isDesktop ? baseUrl + '&date=' + tomorrowStr : baseUrl;
+
+  var embedEl = document.getElementById('calendly-embed');
+  embedEl.setAttribute('data-url', url);
+</script>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
